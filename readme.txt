@@ -1,11 +1,13 @@
 === MO Cache ===
-Contributors: m4i
+Contributors: m4i, khromov
 Tags: cache, caching, performance, benchmark, benchmarking, i18n, internationalization, l10n, localization, language, languages, translation, translate
 Requires at least: 3.2
-Tested up to: 3.4
+Tested up to: 3.6
 Stable tag: 2.0
 
 Improving the site performance by caching translation files using the WordPress standard cache mechanism.
+
+This fork (by khromov@github) comments all the code and changes the default key generation algorithm to MD5 to increase performance.
 
 
 == Description ==
